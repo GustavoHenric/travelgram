@@ -5,6 +5,8 @@ footer{
     padding-block: 24px;
     width: 100%;
     gap: 24px;
+
+    font: 14px/150% var(--font-family);
 }
 
 footer span:nth-child(1){
