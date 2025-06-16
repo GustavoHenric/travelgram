@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-h1{
-    color: var(--text-color-primary)
-}
 div.container{
     padding-bottom: 32px;
     padding-top: 20px;
@@ -21,10 +18,15 @@ div.container{
   height: auto;
 }
 
-.about main {
+.about .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+h1{
+    padding: 10px 0px;
+    color: var(--text-color-primary)
 }
 
 .about .info {
@@ -34,10 +36,6 @@ div.container{
   flex-direction: column;
   gap: 0.5rem;
   align-items: flex-start; 
-}
-
-main h1{
-    padding: 10px 0px;
 }
 
 .info {
